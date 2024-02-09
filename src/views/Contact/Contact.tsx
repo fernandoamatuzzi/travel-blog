@@ -21,17 +21,17 @@ function Contact() {
             <form className="contactForm">
               <label>
                 Name:
-                <input type='text' name='name' />
+                <input type='text' name='name' placeholder='Input your name here' />
               </label>
               <label>
                 Email:
-                <input type='text' name='email' />
+                <input type='text' name='email' placeholder='example@email.com' />
               </label>
               <label>
                 Message:
-                <textarea name='message' />
+                <textarea name='message' placeholder='Write your message here' />
               </label>
-              <input type='submit' value='Submit' />
+              <button type='submit' className='contactButton'>Submit</button>
             </form>
           </div>        
         </nav>

@@ -1,8 +1,8 @@
 import './App.css';
 import { Link, Route, Routes } from 'react-router-dom';
-import About from './components/About/About';
-import Contact from './components/Contact/Contact';
-import Home from './components/Home/Home';
+import About from './views/About/About';
+import Contact from './views/Contact/Contact';
+import Home from './views/Home/Home';
 
 function App() {
   return (
@@ -20,14 +20,6 @@ function App() {
         <Route path='/contact' element={<Contact />} />
       </Routes>
     </div>
-    // <BrowserRouter>
-    //   <>
-    //     <h1 style={{fontStyle: 'italic'}}><span className={'bismuth'} style={{color: '#9551ff', fontStyle: 'normal'}}>Travel Blog - 40 countries!</span></h1>
-    //     <p>
-    //       Come travel with me!
-    //     </p>
-    //   </>  
-    // </BrowserRouter>
   )
 }
 
