@@ -18,16 +18,16 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 1.5em;
+  gap: 10em;
 }
 
 a {
   font-weight: 500;
-  color: #0b19dc;
+  color: #000000;
   text-decoration: inherit;
 }
 a:hover {
-  color: #a2a4c3;
+  color: #169175;
 }
 
 body {
@@ -55,7 +55,8 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  background-color: #73ceb9;
+  border-color: #169175;
 }
 button:focus,
 button:focus-visible {

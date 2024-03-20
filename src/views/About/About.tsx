@@ -1,12 +1,17 @@
+import SearchBar from "../../components/SearchBar/SearchBar"
+
 function About() {
     return (
       <>
         <p>
-          <h1>About Us!</h1>
+          <h1>We are a couple who loves to travel and share our experiences with you!</h1>
         </p>
         <p>
-          We are a couple who loves to travel and share our experiences with you!
+          Search for a country to check out our travel tips!
         </p>
+        <div>
+          <SearchBar />
+        </div>
       </>
     )
   }

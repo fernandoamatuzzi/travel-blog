@@ -18,7 +18,7 @@ function Contact() {
         </nav>
         <nav>
           <div>
-            <form className="contactForm">
+            <form className="contact-form">
               <label>
                 Name:
                 <input type='text' name='name' placeholder='Input your name here' />
@@ -31,7 +31,7 @@ function Contact() {
                 Message:
                 <textarea name='message' placeholder='Write your message here' />
               </label>
-              <button type='submit' className='contactButton'>Submit</button>
+              <button type='submit' className='contact-button'>Submit</button>
             </form>
           </div>        
         </nav>
